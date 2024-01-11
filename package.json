@@ -1,0 +1,77 @@
+{
+  "name": "vue-h5-c",
+  "version": "1.0.0",
+  "scripts": {
+    "serve": "vue-cli-service serve --open",
+    "dev": "vue-cli-service serve --open",
+    "start": "vue-cli-service serve --open",
+    "sanpang": "vue-cli-service serve --open --mode sanpang",
+    "test1": "vue-cli-service serve --open --mode test1",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint --fix"
+  },
+  "dependencies": {
+    "@vant/area-data": "^1.2.3",
+    "axios": "^0.21.1",
+    "core-js": "^3.22.5",
+    "jwt-decode": "^3.1.2",
+    "mitt": "^3.0.0",
+    "normalize.css": "^8.0.1",
+    "swiper": "^8.3.2",
+    "vant": "^4.0.0-alpha.3",
+    "vue": "^3.1.1",
+    "vue-clipboard3": "^2.0.0",
+    "vue-i18n": "^9.1.10",
+    "vue-qr": "^3.2.4",
+    "vue-router": "^4.0.8",
+    "vuex": "^4.0.1"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.33.0",
+    "@typescript-eslint/parser": "^2.33.0",
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-plugin-typescript": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/compiler-sfc": "^3.0.0",
+    "@vue/eslint-config-typescript": "^5.0.2",
+    "autoprefixer": "^9.8.4",
+    "babel-eslint": "^10.1.0",
+    "babel-plugin-import": "^1.13.0",
+    "chalk": "^4.1.0",
+    "chokidar": "^3.5.1",
+    "compression-webpack-plugin": "5.0.1",
+    "eslint": "^6.7.2",
+    "eslint-plugin-prettier": "^3.1.3",
+    "eslint-plugin-vue": "^7.0.0-0",
+    "less": "^3.12.2",
+    "less-loader": "^7.1.0",
+    "mockjs": "^1.1.0",
+    "postcss-px-to-viewport": "^1.1.1",
+    "svg-sprite-loader": "^5.0.0",
+    "typescript": "~4.3.5"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/vue3-essential",
+      "eslint:recommended"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "Android >= 4.0",
+    "iOS >= 7"
+  ]
+}

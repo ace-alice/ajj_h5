@@ -1,0 +1,187 @@
+.v-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: calc(100% - 40px);
+  display: flex;
+  color: #fff;
+  height: 48px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  z-index: 500;
+  &-l {
+    display: flex;
+    align-items: center;
+    .personal-menu {
+      width: 16px;
+      height: 14px;
+      margin-right: 18px;
+    }
+    .logo {
+      width: 91px;
+      height: 21px;
+      margin-right: 18px;
+    }
+  }
+  &-m {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    font-size: 14px;
+    font-weight: 600;
+    span {
+      margin: 0 5px;
+      padding: 3px 0;
+    }
+    .promotions-tabs-active {
+      border-bottom: 2px solid;
+      border-color: #07c79c;
+    }
+  }
+  &-r {
+    display: flex;
+    .home-remind {
+      width: 17px;
+      height: 18px;
+      margin-left: 18px;
+    }
+    .home-customer-service {
+      width: 19px;
+      height: 17px;
+      margin-left: 18px;
+    }
+    .home-lang-en {
+      width: 18px;
+      height: 19px;
+      margin-left: 18px;
+    }
+    .personal-edit {
+      width: 18px;
+      height: 17px;
+      margin-left: 18px;
+    }
+    span {
+      background-image: linear-gradient(to right, #12dedf, #07c79c), linear-gradient(to bottom, #fff, #fff);
+      font-size: 12px;
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  }
+}
+.v-menu {
+  color: #fff;
+  &-header {
+    display: flex;
+    align-items: center;
+    margin: 64px 20px 0 0;
+    color: #fff;
+    &-image {
+      display: flex;
+    }
+    div:nth-child(2) {
+      flex:1
+    }
+    &-name {
+      display: flex;
+      font-size: 18px;
+      font-weight: bold;
+      .userinfo-vip {
+        display: flex;
+        align-items: center;
+        margin-left: 5px;
+        margin-right: 5px;
+        span {
+          display: flex;
+          justify-content: center;
+          min-width: 16px;
+          height: 14px;
+          line-height: 14px;
+          font-size: 10px;
+          color: #2d363d;
+          background-color: #ffd803;
+          border-radius: 2px;
+          padding: 0 2px;
+        }
+      }
+    }
+    &-phone {
+      font-size: 12px;
+      color: #b6c1cb;
+      margin: 8px 0;
+    }
+    &-vip {
+      display: flex;
+      font-size: 12px;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 3px;
+      span:nth-child(2) {
+        font-size: 10px;
+        color: #b6c1cb;
+        font-weight: 300;
+      }
+    }
+    :deep(.van-image) {
+      border-radius: 73px;
+      overflow: hidden;
+      margin: 0 15px 0 11px;
+    }
+    :deep(.van-progress) {
+      margin: -2px 10px 0 10px;
+      background: #525f69;
+    }
+  }
+  &-price {
+    margin: 20px 11px;
+    &-way {
+      display: flex;
+      line-height: 30px;
+      font-size: 12px;
+      user-select: none;
+      span:nth-child(1) {
+        width: 50px;
+        color: #b6c1cb;
+      }
+      span:nth-child(2) {
+        color: #fefefe;
+      }
+    }
+  }
+  &-list {
+    margin: 0 15px;
+    &-svg {
+      display: flex;
+      width: 100%;
+      height: 40px;
+      align-items: center;
+      margin: 5px 0;
+      div {
+        width: 30px;
+      }
+      span {
+        color: #b6c1cb;
+        font-size: 13px;
+        font-weight: 300;
+      }
+    }
+    .sidebar-wallet {
+      width: 13px;
+      height: 13px;
+    }
+    .sidebar-discount {
+      width: 15px;
+      height: 15px;
+    }
+    .sidebar-personal {
+      width: 12px;
+      height: 14px;
+    }
+  }
+  :deep(.van-divider) {
+    margin-left: 11px;
+    margin-right: 11px;
+    color: #94a5b1;
+  }
+}

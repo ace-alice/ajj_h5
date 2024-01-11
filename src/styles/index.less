@@ -1,0 +1,84 @@
+@import './variables.less';
+//@import '../assets/fonts/font.less';
+body {
+  height: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-family: PingFang SC, Helvetica Neue, Helvetica, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif;
+  //noinspection CssUnknownProperty
+  //font-display: swap;
+  color: @font-color;
+  overflow: hidden;
+}
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+  background-color: #1c2227;
+  overflow: hidden;
+}
+
+div::-webkit-scrollbar {
+  width: 0px !important;
+  height: 0px !important;
+  display: none;
+}
+
+#app {
+  max-width: 400px;
+  height: 100%;
+  background-color: #1c2227;
+  overflow: hidden;
+  font-family: PingFang-SC;
+}
+
+a,
+a:focus,
+a:hover {
+  cursor: pointer;
+  color: inherit;
+  text-decoration: none;
+}
+
+@keyframes paragraph-one-in {
+  from {
+    margin-left: 100%;
+  }
+  to {
+    margin-left: 0%;
+  }
+}
+
+@keyframes one-in {
+  from {
+    padding-left: 100%;
+    height: 0;
+  }
+  to {
+    padding-left: 0%;
+    height: 100px;
+  }
+}
+@keyframes two-in {
+  from {
+    padding-right: 100%;
+    padding-top: 100px;
+    height: 0;
+  }
+  to {
+    padding-right: 0%;
+    padding-top: 0px;
+    height: 100px;
+  }
+}
+
+.van-image__loading {
+  width: 100%;
+  height: 100%;
+  //position: relative !important;
+  background: none !important;
+}
+.van-image__error {
+  background: none !important;
+}

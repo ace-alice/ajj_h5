@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30.019" height="30.019" viewBox="0 0 30.019 30.019">
+    <defs>
+        <linearGradient id="aoqzpmljka" y1=".472" x2="1" y2=".472" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#11dcd9"/>
+            <stop offset="1" stop-color="#0cd2bb"/>
+        </linearGradient>
+    </defs>
+    <path data-name="路径 59" d="M61.555 42.28A12.758 12.758 0 1 1 48.8 55.038 12.758 12.758 0 0 1 61.555 42.28m0-2.251a15.01 15.01 0 1 0 15.01 15.01 15.01 15.01 0 0 0-15.01-15.01z" style="fill:url(#aoqzpmljka)" transform="translate(-46.545 -40.029)"/>
+    <path data-name="路径 60" d="M325.814 412.782h-10.506a1.126 1.126 0 0 1 0-2.251h10.507a1.126 1.126 0 0 1 0 2.251zm0 4.435h-10.506a1.126 1.126 0 0 1 0-2.251h10.507a1.126 1.126 0 0 1 0 2.251z" transform="translate(-305.551 -398.583)" style="fill:url(#aoqzpmljka)"/>
+    <path data-name="路径 61" d="M367.8 289.247a1.126 1.126 0 0 1-1.126-1.126v-9.006a1.126 1.126 0 1 1 2.251 0v9.006a1.126 1.126 0 0 1-1.125 1.126zm-.75-11.325a1.118 1.118 0 0 1-.75-.33l-3-3a1.126 1.126 0 0 1 1.587-1.592l3 3a1.133 1.133 0 0 1 0 1.591 1.148 1.148 0 0 1-.838.331z" transform="translate(-352.79 -265.194)" style="fill:url(#aoqzpmljka)"/>
+    <path data-name="路径 62" d="M501.611 277.922a1.148 1.148 0 0 1-.8-.33 1.133 1.133 0 0 1 0-1.591l3-3a1.126 1.126 0 0 1 1.591 1.591l-3 3a1.118 1.118 0 0 1-.791.33z" transform="translate(-485.851 -265.194)" style="fill:url(#aoqzpmljka)"/>
+</svg>

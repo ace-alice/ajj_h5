@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="27.103" height="30.019" viewBox="0 0 27.103 30.019">
+    <defs>
+        <linearGradient id="sw7qjfltsa" y1=".57" x2="1" y2=".585" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#11dcd9"/>
+            <stop offset="1" stop-color="#0cd2bb"/>
+        </linearGradient>
+    </defs>
+    <g data-name="suo">
+        <path data-name="路径 63" d="M131.192 74.121h-2.573v-2.573a7.548 7.548 0 1 0-15.1 0v2.573h-2.573a3.431 3.431 0 0 0-3.431 3.431v13.036a3.431 3.431 0 0 0 3.431 3.431h20.242a3.431 3.431 0 0 0 3.431-3.431V77.551a3.431 3.431 0 0 0-3.427-3.43zm-15.267-2.573a5.146 5.146 0 1 1 10.292 0v2.573h-10.292zm16.3 19.041a1.03 1.03 0 0 1-1.029 1.029h-20.245a1.03 1.03 0 0 1-1.029-1.029V77.551a1.03 1.03 0 0 1 1.029-1.029h20.242a1.03 1.03 0 0 1 1.029 1.029z" style="fill:url(#sw7qjfltsa)" transform="translate(-107.52 -64)"/>
+        <path data-name="路径 64" d="M477.361 550.4a1.2 1.2 0 0 0-1.2 1.2v5.832a1.2 1.2 0 1 0 2.4 0V551.6a1.2 1.2 0 0 0-1.2-1.2z" transform="translate(-463.809 -534.104)" style="fill:url(#sw7qjfltsa)"/>
+    </g>
+</svg>
